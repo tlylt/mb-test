@@ -10,5 +10,5 @@ jobs:
         uses: tlylt/markbind-deploy-gh-pages@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          baseUrl: 'mb-test'
+          baseUrl: '/mb-test'
           version: 'master'
