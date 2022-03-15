@@ -1,0 +1,10 @@
+2022-03-15T01:27:34.518Z - info: Initialization success.
+2022-03-15T01:32:18.928Z - info: Website generation started at 9:32:18 am
+2022-03-15T01:32:18.989Z - info: Building assets...
+2022-03-15T01:32:19.006Z - info: Assets built
+2022-03-15T01:32:19.007Z - info: Generating pages...
+2022-03-15T01:32:19.242Z - info: Pages built
+2022-03-15T01:32:19.446Z - info: Site data built
+2022-03-15T01:32:19.448Z - info: Website generation complete! Total build time: 0.594s
+2022-03-15T01:32:19.477Z - info: Serving "C:\Users\User\Documents\GitHub\mb-test\_site" at http://127.0.0.1:8080
+2022-03-15T01:32:19.478Z - info: Press CTRL+C to stop ...
