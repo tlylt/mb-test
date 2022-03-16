@@ -6,9 +6,14 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Dump github context
+        run: echo "$GITHUB_CONTEXT.repository/\//-"
+        shell: bash
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
       - name: Build & Deploy to GitHub Pages
         uses: tlylt/markbind-deploy@main
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           baseUrl: '/mb-test'
           version: 'master'
