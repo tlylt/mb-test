@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build & Deploy to GitHub Pages
-        uses: tlylt/markbind-deploy-gh-pages@main
+        uses: tlylt/markbind-deploy@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           baseUrl: '/mb-test'
