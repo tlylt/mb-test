@@ -22,20 +22,6 @@ Some text some text some text some text some text some text some text. **Some te
 
 **A list:**
 
-* item A
-* item B
-  1. item b1
-  1. item b2
-  1. item b3
-
-**A `code` example:**
-
-```html
-<foo>
-  <bar type="name">goo</bar>
-</foo>
-```
-
 ## Sub Heading 1.1
 
 A <tooltip content=":exclamation: some **important explanation**" placement="top" trigger="hover">tooltip</tooltip>, a <trigger for="modal:modalinfo" trigger="click">modal</trigger>, a <a href="https://markbind.org/">link</a>, a <span class="badge badge-danger">badge</span>, another <span class="badge badge-warning">badge</span>.
