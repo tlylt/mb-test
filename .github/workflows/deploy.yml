@@ -6,11 +6,10 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      # Standard deployment to GitHub Pages
-      # files are at the root of the repository
       - name: Build & Deploy to GitHub Pages
         uses: tlylt/markbind-deploy@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           baseUrl: '/mb-test'
-          version: 'master'
+          version: '3.1.1'
+          rootDirectory: './docs'
