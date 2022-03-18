@@ -13,7 +13,7 @@
   "pages": [
     {
       "src": "index.md",
-      "title": "Landing Page"
+      "title": "Landing Page2"
     },
     {
       "glob": ["**/index.md", "**/*.md"]
