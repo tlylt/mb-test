@@ -8,10 +8,9 @@ jobs:
     steps:
       # Standard deployment to GitHub Pages
       # files are at the root of the repository
-      # version specified is v3.1.0
       - name: Build & Deploy to GitHub Pages
         uses: tlylt/markbind-deploy@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           baseUrl: '/mb-test'
-          version: '3.1.0'
+          version: '2.18.1'
