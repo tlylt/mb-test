@@ -8,7 +8,7 @@
 
 <div class="jumbotron jumbotron-fluid bg-primary text-white">
   <div class="container">
-    <h1 class="display-4 no-index">This is a test page</h1>
+    <h1 class="display-4 no-index">This is FROM PR</h1>
     <p class="lead">A tagline can go here</p>
   </div>
 </div>
@@ -21,20 +21,6 @@ Some text some text some text some text some text some text some text. **Some te
 > Some text some text some text some text some text some text some text. Some text some text some text some text some text some text some text. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
 
 **A list:**
-
-* item A
-* item B
-  1. item b1
-  1. item b2
-  1. item b3
-
-**A `code` example:**
-
-```html
-<foo>
-  <bar type="name">goo</bar>
-</foo>
-```
 
 ## Sub Heading 1.1
 
