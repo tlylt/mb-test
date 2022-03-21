@@ -12,6 +12,6 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         uses: tlylt/markbind-deploy@main
         with:
-          token: ${{ secrets.SURGE_TOKEN }}
-          service: 'surge'
-          domain: 'mb-test.surge.sh'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          baseUrl: '/mb-test'
+          keepFiles: true
