@@ -9,7 +9,7 @@
   "scripts": {
     "start": "npm run build & npm run serve",
     "build": "markbind build",
-    "serve": "markbind serve"
+    "serve": "markbind serve -d"
   },
   "repository": {
     "type": "git",
