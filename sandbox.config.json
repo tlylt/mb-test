@@ -1,0 +1,5 @@
+{
+  "template": "node",
+  "startScript": "npm start",
+  "port": "8080"
+}
