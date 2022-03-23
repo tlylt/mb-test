@@ -1,0 +1,27 @@
+{
+  "name": "mb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "npm run build & npm run serve",
+    "build": "markbind build",
+    "serve": "markbind serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlylt/mb-test.git"
+  },
+  "author": "tlylt <liu_yongliang@hotmail.com> (https://github.com/tlylt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlylt/mb-test/issues"
+  },
+  "homepage": "https://github.com/tlylt/mb-test#readme",
+  "dependencies": {
+    "markbind-cli": "3.1.1"
+  }
+}

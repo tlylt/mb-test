@@ -8,17 +8,16 @@
     "site.json",
     "*.md",
     "*.njk",
-    ".git/*"
+    ".git/*",
+    "node_modules/*"
   ],
   "pages": [
     {
       "src": "index.md",
       "title": "Landing Page1"
-    },
-    {
-      "glob": ["**/index.md", "**/*.md"]
     }
   ],
+  "pagesExclude": ["node_modules/*"],
   "deploy": {
     "message": "Site Update."
   }
