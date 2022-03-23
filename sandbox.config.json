@@ -1,5 +1,6 @@
 {
   "template": "node",
-  "startScript": "npm start",
-  "port": 8080
+  "startScript": "serve",
+  "port": 8080,
+  "node": "12"
 }
