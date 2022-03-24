@@ -14,7 +14,7 @@ with(this){return _c('h1',{attrs:{"id":"heading-1"}},[_c('span',{staticClass:"an
 with(this){return _c('p',[_c('strong',[_v("A list:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("item A")]),_v(" "),_c('li',[_v("item B\n"),_c('ol',[_c('li',[_v("item b1")]),_v(" "),_c('li',[_v("item b2")]),_v(" "),_c('li',[_v("item b3")])])])])}
+with(this){return _c('ul',[_c('li',[_v("item A")]),_v(" "),_c('li',[_v("item B\n"),_c('ol',[_c('li',[_v("item b1")]),_v(" "),_c('li',[_v("item b2")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("A "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("code")]),_v(" example:")])])}
