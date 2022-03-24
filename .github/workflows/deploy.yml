@@ -13,4 +13,3 @@ jobs:
         uses: tlylt/markbind-deploy@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          baseUrl: "/mb-test1"
