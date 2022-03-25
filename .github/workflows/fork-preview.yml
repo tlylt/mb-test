@@ -1,0 +1,15 @@
+name: Preview Fork PR
+
+on:
+  workflow_run:
+    workflows: ["Build Fork PR"]
+    types: [completed]
+
+jobs:
+  on-success:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    name: Deploying to surge
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-preview.yml@main
+    secrets:
+      token: ${{ secrets.SURGE_TOKEN }}
+      domain: "mb-test/surge.sh"
