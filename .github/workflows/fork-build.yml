@@ -4,14 +4,16 @@ name: Build Fork PR
 # no access to secrets
 on:
   pull_request:
-    types: [closed]
-    branches:
-      - main
+
+# cancel multiple runs at the same time, can be removed if you don't need it
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
-    name: Unpublish from Surge
-    uses: tlylt/markbind-reusable-workflows/.github/workflows/unpublish-preview.yml@main
+    name: Build Fork PR
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-build.yml@main
     with:
       version: "3.1.1"
       baseUrl: ""

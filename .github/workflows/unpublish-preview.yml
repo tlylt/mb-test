@@ -1,15 +1,15 @@
 name: Unpublish preview site
 
 on:
-  workflow_run:
-    workflows: ["Build Fork PR"]
-    types: [completed]
+  pull_request:
+    types: [closed]
+    branches:
+      - main
 
 jobs:
-  on-success:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    name: Deploying to surge
-    uses: tlylt/markbind-reusable-workflows/.github/workflows/fork-preview.yml@main
+  build:
+    name: Unpublish from Surge
+    uses: tlylt/markbind-reusable-workflows/.github/workflows/unpublish-preview.yml@main
     with:
       domain: "mb-test.surge.sh"
     secrets:
