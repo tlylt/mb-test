@@ -1,4 +1,4 @@
-name: Preview Fork PR
+name: Unpublish preview site
 
 on:
   workflow_run:
