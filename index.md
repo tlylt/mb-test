@@ -78,8 +78,6 @@ value2   | y        | 20       | :far-thumbs-down:
 
 <br>
 
-# Heading 2
-
 **Some boxes:**
 
 <box>
