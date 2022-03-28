@@ -11,6 +11,14 @@ body:
     - label: I have searched the existing issues
       required: true
 - type: input
+  id: related
+  attributes:
+    label: Any related issues?
+    description: Are there existing issues that relate to this new issue? (Either covering other aspects/angles of the problem or providing context)
+    placeholder: e.g. \#1, \#2 #2
+  validations:
+    required: false
+- type: input
   id: environment
   attributes:
     label: Tell us about your environment
