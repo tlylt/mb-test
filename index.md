@@ -21,7 +21,6 @@ Keep files
 * item A
 * item B
   1. item b1
-  1. item b2
 
 **A `code` example:**
 
