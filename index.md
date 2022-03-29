@@ -80,9 +80,6 @@ value2   | y        | 20       | :far-thumbs-down:
 
 **Some boxes:**
 
-<box>
-    default
-</box>
 <box type="info">
     info
 </box>
