@@ -13,7 +13,10 @@ body:
   id: related
   attributes:
     label: Any related issues?
-    description: Are there existing issues that relate to this new issue? (Either covering other aspects/angles of the feature or providing context)
+    description: |
+      Are there existing issues that relate to this new issue? (Either covering other aspects/angles of the feature or providing context)
+
+      e.g. #1, #2
   validations:
     required: false
 - type: dropdown
