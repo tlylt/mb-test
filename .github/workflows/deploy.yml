@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build & Deploy to GitHub Pages
-        uses: tlylt/markbind-deploy@main
+        uses: MarkBind/markbind-action@release/v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
