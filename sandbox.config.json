@@ -2,5 +2,5 @@
   "template": "node",
   "startScript": "serve",
   "port": 8080,
-  "node": "12"
+  "node": "14"
 }
