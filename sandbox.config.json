@@ -1,8 +1,0 @@
-{
-  "template": "node",
-  "startScript": "serve",
-  "port": 8080,
-  "container": {
-    "node": "16"
-  }
-}
